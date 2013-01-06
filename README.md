@@ -1,15 +1,17 @@
 # Description
 
 This is a Ruby on Rails server application that serves as the
-counterpart for JOSM's "separate data store" plugin which lives
-at http://svn.openstreetmap.org/applications/editors/josm/sds/.
+counterpart for JOSM's "separate data store" plugin which lives 
+at http://svn.openstreetmap.org/applications/editors/josm/plugins/sds/ 
 
+This enables JOSM users to record additional data
+with OSM objects, storing that additional data in a different repository.
 It can store extra tags for OSM objects and deliver them to
 JOSM where they are processed like normal tags.
 
 # More Documentation
 
-See the [.odt/.pdf documentation in the "doc" folder.](doc/sds.pdf)
+See the [.odt/.pdf documentation in the "doc" folder.](sds-server/doc/sds.pdf)
 
 # Open Source License
 
